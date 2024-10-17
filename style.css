@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poller+One&display=swap");
 
+img{
+  align-self: center;
+}
+
+
 @font-face {
   font-family: "SF Distant Galaxy";
   src: url("SFDistantGalaxy.ttf") format("truetype");
@@ -8,19 +13,80 @@
 body {
   background-color: #e4e7ec;
 }
+.img{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:1px;
+}
+.im{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:1px;
+}
+.imge{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:1px;
+}
+
+.texts{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
 
 
 
 h1 {
   font-family: "SF Distant Galaxy";
+  color: blueviolet;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+
 }
 
 
 
 /* computer */
 @media screen and (min-width: 600px) {
+  body {
+    background-color:black;
+   
+    }
+  
+ 
+  .img{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+   
+  }
+  .im{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
 
+  }
+  .imge{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
 
-
+  }
+  
+  .texts{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+  }
 }
+
 
