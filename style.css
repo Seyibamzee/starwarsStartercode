@@ -13,33 +13,19 @@ img{
 body {
   background-color: #e4e7ec;
 }
+
 .img{
   display:flex;
   flex-direction: column;
   justify-content: center;
-  margin:1px;
-}
-.im{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  margin:1px;
-}
-.imge{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  margin:1px;
 }
 
 .texts{
   display:flex;
   flex-direction: column;
-  justify-content:center;
-  align-items: center;
+align-items: center;
+justify-content: space-between;
 }
-
-
 
 
 h1 {
@@ -61,32 +47,17 @@ h1 {
    
     }
   
- 
-  .img{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-   
-  }
-  .im{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-
-  }
-  .imge{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-
-  }
-  
-  .texts{
-    display:flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    
-  }
+    .img{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .texts{
+      display:flex;
+      flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    }
 }
 
 
